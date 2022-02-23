@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+ height: 100vh;
+ display: flex;
+
+}
+
+div{
+ display: flex;
+ flex-direction: column;
+ flex-grow: 10;  
+}
+
+nav{
+    background-color: darkseagreen;
+    flex-grow: 2;
+}
+
+header{
+background-color: darkkhaki;
+flex-grow: 1;
+}
+
+main{
+ background-color: darkgrey;
+ flex-grow: 5;
+}
+
+footer{
+ background-color: crimson;
+ flex-grow: 1;   
+}
